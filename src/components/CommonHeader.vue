@@ -119,7 +119,7 @@ body {
 /*------------------------*/
 
 #hamburger {
-  display: none;
+  display: block
 }
 
 #top-header {
@@ -204,10 +204,10 @@ body {
     position: fixed;
     top: 0;
     left: calc(-100% - 80px);
-    background: #fff;
+    background: rgba(194, 184, 184, 0.6);
     color: #333333;
     box-shadow: 80px 0 rgba(38, 98, 213, 0.3);
-    z-index: 999;
+    z-index: 0;
   }
   .menu-content .menu-title {
     margin: 40px 20px;

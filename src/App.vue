@@ -26,7 +26,7 @@
           <a href="" class="common-btn mission-btn">ミッション詳細</a>
         </div>
         <div class="mission-img">
-          <img src="assets/mission-img.jpg" alt="" />
+          <img src="./assets/mission-img.jpg" alt="" />
         </div>
       </div>
       <div class="service">
@@ -203,16 +203,16 @@ input, select {
 /*ここまでがリセットcss*/
 
 #firstview {
-  height: 1000px;
+  height: 500px;
   background: (../assets/eyecatch.jpg);
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: center;
 }
 
 .catchcopy {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 10%;
   font-size: 60px;
   font-style: italic;
@@ -281,11 +281,14 @@ input, select {
 }
 
 .mission-img {
-  width: 40%;
-  position: absolute;
-  bottom: -10%;
-  right: 5%;
-  z-index: -999;
+  width: -200px;
+  height: -300px;
+  position: center;
+  bottom: 500%;
+  right: 5px;
+  left: 30px;
+  top: 2px;
+  z-index: 10;
 }
 
 /*------------------------*/
