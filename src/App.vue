@@ -329,6 +329,7 @@ input, select {
   transform: translate(-50%, -50%);
 }
 
+
 .company-title span {
   color: #fff;
 }

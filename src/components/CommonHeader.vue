@@ -23,25 +23,25 @@
        <nav class="menu-content" :class="{'open':isClass}">
         <p class="menu-title">estra inc.</p>
         <ul class="menu-content_inner">
-        <li>
-          <a href="#">home</a>
-        </li>
-        <li>
-          <a href="#">about</a>
-        </li>
-        <li>
-          <a href="#">service</a>
-        </li>
-        <li>
-          <a href="#">works</a>
-        </li>
-        <li>
-          <a href="#">price</a>
-        </li>
-        <li>
-          <a href="#">contact</a>
-        </li>
-      </ul>
+          <li>
+            <a href="#">home</a>
+          </li>
+          <li>
+            <a href="#">about</a>
+          </li>
+          <li>
+            <a href="#">service</a>
+          </li>
+          <li>
+            <a href="#">works</a>
+          </li>
+          <li>
+            <a href="#">price</a>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+       </ul>
       </nav>
       </header>
       <p class="catchcopy">機械ではできない仕事を</p>
@@ -74,7 +74,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped> 
 html {
   height: 100%;
 }
@@ -199,45 +199,47 @@ body {
     top: 20px;
     transform: rotate(-45deg);
   }
-}
-#hamburger {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    cursor: pointer;
-    z-index: 100;
-    top: 15px;
-    right: 20px;
-    transition: 0.4s;
+  .menu-content {
+    display: block;
+    width: calc(100% - 80px);
+    height: 100%;
+    text-align: center;
+    transition: 0.2s;
+    position: fixed;
+    top: 0;
+    left: calc(-100% - 80px);
+    background: #fff;
+    color: #333333;
+    box-shadow: 80px 0 rgba(38, 98, 213, 0.3);
+    z-index: 999;
+  }
+  .menu-content .menu-title {
+    margin: 40px 20px;
+    font-size: 2.2rem;
+    color: #333333;
+    text-align: left;
+    font-weight: bold;
+  }
+  .menu-content li a {
+    color: #333333;
+    margin: 15px;
+    padding: 5px;
+    border-bottom: 0.5px solid #2662d5;
+    text-decoration: none;
     display: block;
   }
-  #hamburger span {
-    display: block;
-    width: 35px;
-    height: 2px;
-    background-color: #fff;
-    transition: 0.8s;
+  .menu-content li {
+    width: 100%;
+    text-align: left;
   }
-  #hamburger span:nth-of-type(1) {
-    position: absolute;
-    top: 10px;
-    left: 2px;
+  .menu-content.open {
+    left: 0;
   }
-  #hamburger span:nth-of-type(2) {
-    position: absolute;
-    top: 20px;
-    left: 2px;
-  }
-  #hamburger span:nth-of-type(3) {
-    position: absolute;
-    top: 30px;
-    left: 2px;
-  }
-
+};
 
 #firstview {
   height: 100%;
-  background: url(./assets/eyecatch.jpg) no-repeat;
+  background: url(../assets/eyecatch.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
