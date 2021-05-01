@@ -1,7 +1,6 @@
 <template>
   <header class="header">
     <div id="firstview">
-      <header id="top-header">
         <div class="flex">
           <h1 class="header-logo">estra inc.</h1>
           <nav class="header-nav">
@@ -43,18 +42,7 @@
           </li>
        </ul>
       </nav>
-      </header>
-      <p class="catchcopy">機械ではできない仕事を</p>
-      <div class="news flex">
-        <div class="news-content">
-          <p class="news_date">2019/01/01</p>
-          <p class="news_title">
-            ニュースタイトルがここには入ります。3月の決算報告書
-          </p>
-        </div>
-        <div class="news-icon">news</div>
-      </div>
-    </div>
+     </div>
   </header>
 </template>
 
@@ -126,6 +114,10 @@ body {
   font-size: 20px;
 }
 
+/*------------------------*/
+/*         header         */
+/*------------------------*/
+
 #hamburger {
   display: none;
 }
@@ -174,18 +166,22 @@ body {
     background-color: #fff;
     transition: 0.8s;
   }
+
   #hamburger span:nth-of-type(1) {
-    top: 10px;
+  top: 10px; /* ハンバーガーメニューの1本目の棒 */
   }
+
   #hamburger span:nth-of-type(2) {
-    top: 20px;
+  top: 20px; /* ハンバーガーメニューの2本目の棒 */
   }
+  
   #hamburger span:nth-of-type(3) {
-    top: 30px;
+  top: 30px; /* ハンバーガーメニューの3本目の棒 */
   }
-  .header-nav {
-    display: none;
-  }
+
+ .header-nav {
+  display: none; /* デスクトップのナビを消す */
+ }
 
   #hamburger.active span:nth-of-type(1) {
     top: 20px;
@@ -238,7 +234,7 @@ body {
 };
 
 #firstview {
-  height: 100%;
+  height:800px;
   background: url(../assets/eyecatch.jpg);
   background-size: cover;
   background-position: center;

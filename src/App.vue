@@ -3,21 +3,6 @@
   <div id="app">
     <CommonHeader></CommonHeader>
      <div id="firstview">
-      <header id="top-header">
-        <div class="flex">
-          <h1 class="header-logo">estra inc.</h1>
-          <nav class="header-nav">
-            <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">service</a></li>
-              <li><a href="#">works</a></li>
-              <li><a href="#">price</a></li>
-              <li><a href="#">contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
       <p class="catchcopy">機械ではできない仕事を</p>
       <div class="news flex">
         <div class="news-content">
@@ -29,12 +14,6 @@
         <div class="news-icon">news</div>
       </div>
     </div>
-    <div id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
     <main>
       <div class="mission">
         <div class="mission-content">
@@ -47,14 +26,14 @@
           <a href="" class="common-btn mission-btn">ミッション詳細</a>
         </div>
         <div class="mission-img">
-          <img src="img/mission-img.jpg" alt="" />
+          <img src="assets/mission-img.jpg" alt="" />
         </div>
       </div>
       <div class="service">
         <h2 class="service-title section-title">service</h2>
         <div class="service-content">
           <div class="service-img">
-            <img src="img/service2.jpg" alt="" />
+            <img src="./assets/service2.jpg" alt="" />
           </div>
           <div class="service-content_inner">
             <h3 class="mgb-15">web制作事業</h3>
@@ -67,7 +46,7 @@
         </div>
         <div class="service-content">
           <div class="service-img service-img_second">
-            <img src="img/service1.jpg" alt="" />
+            <img src="./assets/service1.jpg" alt="" />
           </div>
           <div class="service-content_inner service-content_inner-second">
             <h3 class="mgb-15">web制作事業</h3>
@@ -221,6 +200,62 @@ hr {
 input, select {
   vertical-align:middle;
 }
+/*ここまでがリセットcss*/
+
+#firstview {
+  height: 1000px;
+  background: (../assets/eyecatch.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.catchcopy {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+}
+
+/*------------------------*/
+/*         news           */
+/*------------------------*/
+.news {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+}
+.news-content {
+  background: #fff;
+  width: 80%;
+  height: 70px;
+}
+
+.news_date {
+  padding-left: 5px;
+}
+
+.news_title {
+  padding: 0 15px;
+}
+.news-icon {
+  background: #000;
+  width: 20%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
+}
+
+/*------------------------*/
+/*         mission        */
+/*------------------------*/
+
 
 .mission {
   position: relative;
@@ -272,12 +307,12 @@ input, select {
 }
 
 .service-img {
-  width: 50%;
-  margin-left: 50%;
+  width: 100px;
+  margin: 0 10% 80% 80%;
 }
 
 .service-img_second {
-  margin: 0 50% 0 0;
+  margin: -30% 50% 0 50%;
 }
 
 .service-content_inner {
@@ -313,11 +348,11 @@ input, select {
 }
 
 .company-img {
-  background: url(./assets/company.jpeg) center/cover no-repeat;
+  background: url(./assets/company.jpeg)center/cover no-repeat;
 }
 
 .recruit-img {
-  background: url(./assets/recruit.jpg) center/cover no-repeat;
+  background: url(./assets/recruit.jpg)center/cover no-repeat;
 }
 
 .company-title {
