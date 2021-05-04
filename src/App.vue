@@ -26,14 +26,14 @@
           <a href="" class="common-btn mission-btn">ミッション詳細</a>
         </div>
         <div class="mission-img">
-          <img src="./assets/mission-img.jpg" alt="" />
+          <img src="./assets/mission-img.jpg" alt="" width="400" height=""/>
         </div>
       </div>
       <div class="service">
         <h2 class="service-title section-title">service</h2>
         <div class="service-content">
           <div class="service-img">
-            <img src="./assets/service2.jpg" alt="" />
+            <img src="./assets/service2.jpg" alt="" width="600" height="400"/>
           </div>
           <div class="service-content_inner">
             <h3 class="mgb-15">web制作事業</h3>
@@ -46,7 +46,7 @@
         </div>
         <div class="service-content">
           <div class="service-img service-img_second">
-            <img src="./assets/service1.jpg" alt="" />
+            <img src="./assets/service1.jpg" alt="" width="600" height="400"/>
           </div>
           <div class="service-content_inner service-content_inner-second">
             <h3 class="mgb-15">web制作事業</h3>
@@ -203,8 +203,8 @@ input, select {
 /*ここまでがリセットcss*/
 
 #firstview {
-  height: 500px;
-  background: (../assets/eyecatch.jpg);
+  height: 100px;
+  background: (./assets/eyecatch.jpg);
   background-size: cover;
   background-position: center;
   position: center;
@@ -256,11 +256,10 @@ input, select {
 /*         mission        */
 /*------------------------*/
 
-
 .mission {
   position: relative;
   background: #000;
-  margin-bottom: 10%;
+  margin-bottom: 1%;
   z-index: 999;
 }
 
@@ -274,6 +273,7 @@ input, select {
 .mission_text {
   margin-bottom: 30px;
   color: #fff;
+  z-index: 1;
 }
 
 .mission_title {
@@ -281,14 +281,10 @@ input, select {
 }
 
 .mission-img {
-  width: -200px;
-  height: -300px;
-  position: center;
-  bottom: 500%;
-  right: 5px;
-  left: 30px;
-  top: 2px;
-  z-index: 10;
+  width: 50px;
+  height: 30px;
+  margin: -5% 10% 10% 50%;
+  z-index: 100;
 }
 
 /*------------------------*/
@@ -301,7 +297,7 @@ input, select {
 
 .service-title {
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
 
 .service-content {
@@ -310,17 +306,18 @@ input, select {
 }
 
 .service-img {
-  width: 100px;
-  margin: 0 10% 80% 80%;
+  width: 80px;
+  margin: 5% 5% 10% 45%;
+  
 }
 
 .service-img_second {
-  margin: -30% 50% 0 50%;
+  margin: 0% 500% 10% 1%;
 }
 
 .service-content_inner {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 20%;
   background: #fff;
   width: 40%;
@@ -366,7 +363,6 @@ input, select {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 .company-title span {
   color: #fff;

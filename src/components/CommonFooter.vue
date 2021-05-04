@@ -26,13 +26,13 @@
 }
 
 .top-footer {
-  background: #000;
+  background: rgb(141, 137, 137);
   text-align: center;
 }
 
 .top-footer small {
   text-align: center;
-  color: #fff;
+  color: rgb(241, 233, 233);
 }
 
 @media screen and (max-width: 768px) {
@@ -73,7 +73,7 @@
   .service-content_inner {
     width: 90%;
     position: inherit;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(46, 45, 45, 0.8);
     left: 5%;
   }
   .service-img {

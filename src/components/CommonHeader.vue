@@ -20,27 +20,6 @@
          <span></span>
        </div>
        <nav class="menu-content" :class="{'open':isClass}">
-        <p class="menu-title">estra inc.</p>
-        <ul class="menu-content_inner">
-          <li>
-            <a href="#">home</a>
-          </li>
-          <li>
-            <a href="#">about</a>
-          </li>
-          <li>
-            <a href="#">service</a>
-          </li>
-          <li>
-            <a href="#">works</a>
-          </li>
-          <li>
-            <a href="#">price</a>
-          </li>
-          <li>
-            <a href="#">contact</a>
-          </li>
-       </ul>
       </nav>
      </div>
   </header>
@@ -204,10 +183,10 @@ body {
     position: fixed;
     top: 0;
     left: calc(-100% - 80px);
-    background: rgba(194, 184, 184, 0.6);
+    background: #2222;
     color: #333333;
     box-shadow: 80px 0 rgba(38, 98, 213, 0.3);
-    z-index: 0;
+    z-index: 20;
   }
   .menu-content .menu-title {
     margin: 40px 20px;
