@@ -26,18 +26,24 @@
 }
 
 .top-footer {
-  background: rgb(141, 137, 137);
+  background: rgb(14, 13, 13);
   text-align: center;
+  color: white;
+}
+.header-logo{
+  text-align: left;
+  margin: 0 0 0 5%;
 }
 
-.top-footer small {
-  text-align: center;
-  color: rgb(241, 233, 233);
-}
-
-@media screen and (max-width: 768px) {
   .header-nav {
-    display: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 60px;
+    padding: 0 30px;
+    margin: 0 auto;
+    font-size: 20px;
   }
   .catchcopy {
     top: 50%;
@@ -73,7 +79,7 @@
   .service-content_inner {
     width: 90%;
     position: inherit;
-    background: rgba(46, 45, 45, 0.8);
+    background: rgba(12, 12, 12, 0.8);
     left: 5%;
   }
   .service-img {
@@ -86,43 +92,9 @@
   .faq-title {
     font-size: 30px;
   }
-  .top-footer .header-logo {
+  .top-footer {
     margin: 0;
     width: 100%;
     text-align: center;
   }
-  #hamburger {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    cursor: pointer;
-    z-index: 100;
-    top: 15px;
-    right: 20px;
-    transition: 0.4s;
-    display: block;
-  }
-  #hamburger span {
-    display: block;
-    width: 35px;
-    height: 2px;
-    background-color: #fff;
-    transition: 0.8s;
-  }
-  #hamburger span:nth-of-type(1) {
-    position: absolute;
-    top: 10px;
-    left: 2px;
-  }
-  #hamburger span:nth-of-type(2) {
-    position: absolute;
-    top: 20px;
-    left: 2px;
-  }
-  #hamburger span:nth-of-type(3) {
-    position: absolute;
-    top: 30px;
-    left: 2px;
-  }
-}
 </style>

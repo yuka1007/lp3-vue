@@ -341,6 +341,10 @@ input, select {
   margin-bottom: 10%;
 }
 
+.recruit-company {
+  display: flex;
+}
+
 .recruit-company_size {
   width: 48%;
   height: 300px;
@@ -401,6 +405,7 @@ input, select {
 .contact {
   background: url(./assets/contact-bg.jpg) center/cover no-repeat;
   padding: 10%;
+  margin: 10% 0 0 0;
 }
 
 .contact-title,
@@ -418,7 +423,7 @@ input, select {
 }
 
 .contact-btn {
-  margin: 0 auto;
+  text-align: center;
   background: none;
   border: 1px solid #fff;
   color: #fff;
