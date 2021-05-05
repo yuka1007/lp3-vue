@@ -35,16 +35,16 @@
   margin: 0 0 0 5%;
 }
 
-  .header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-    height: 60px;
-    padding: 0 30px;
-    margin: 0 auto;
-    font-size: 20px;
+  .header-nav li{
+    display: inline-block;
+    margin-left: 70px;
+    color:#fff;
   }
+  
+.flex {
+  display: flex;
+}
+
   .catchcopy {
     top: 50%;
     left: 50%;

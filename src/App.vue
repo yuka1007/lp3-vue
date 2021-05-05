@@ -35,7 +35,7 @@
           <div class="service-img">
             <img src="./assets/service2.jpg" alt="" width="600" height="400"/>
           </div>
-          <div class="service-content_inner">
+          <div class="service-content_inner">c
             <h3 class="mgb-15">web制作事業</h3>
             <p class="mgb-15">コーチングのミッション</p>
             <p class="mgb-15">
@@ -251,6 +251,9 @@ input, select {
   text-align: center;
   color: #fff;
 }
+.news-flex {
+  margin: 100px 0 5px 0; 
+}
 
 /*------------------------*/
 /*         mission        */
@@ -283,8 +286,15 @@ input, select {
 .mission-img {
   width: 50px;
   height: 30px;
-  margin: -5% 10% 10% 50%;
+  margin: -5% 10% 30% 50%;
   z-index: 100;
+}
+
+.mission-btn {
+  color: white;
+  border: 1px solid #fff;
+  padding: 10px;
+  text-decoration: none;
 }
 
 /*------------------------*/
@@ -331,7 +341,11 @@ input, select {
 
 .service-btn {
   border: 1px solid #000;
-  margin: 0 0 0 auto;
+  margin: 20px 30px 20px 0;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  
 }
 
 /*------------------------*/
@@ -424,9 +438,12 @@ input, select {
 
 .contact-btn {
   text-align: center;
+  margin: 360px;
   background: none;
   border: 1px solid #fff;
   color: #fff;
+  padding: 10px;
+  text-decoration: none;
 }
 
 </style>
