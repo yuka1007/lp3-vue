@@ -256,7 +256,7 @@ input, select {
   z-index: 9;
 }
 .news-flex {
-  margin: -200px -100px 0 800px;
+  margin: -25% -7% 0 70%;
   z-index: 999;
   position: relative;
 }
@@ -269,7 +269,7 @@ input, select {
 .mission {
   position: relative;
   background: #000;
-  margin: 40px 0 50px 0;
+  margin: 5% 0 5% 0;
   z-index: 9;
   height: 500px; 
 }
@@ -314,12 +314,12 @@ input, select {
 /*------------------------*/
 .service {
   background: #e5e5e5;
-  padding: 100px 100px 400px 0; 
+  padding: 2% 0 40% 0; 
 }
 
 .service-title {
   text-align: center;
-  padding: 20px 0 0 0;
+  padding: 2% 0 0 0;
   font-size: 40px;
 }
 
@@ -329,11 +329,11 @@ input, select {
 }
 
 .service-img {
-  width: 80px;
+  width: 10px;
 }
 
 .service-img_second {
-  margin: 0% 500% 0% 1%;
+  margin: 0% 0 -10% 1%;
 }
 
 .service-content_inner {
@@ -342,21 +342,20 @@ input, select {
   left: 50%;
   background: #fff;
   width: 45%;
-  padding: 5% 10% 5% 10%;
+  padding: 5% 0 5% 10%;
   box-sizing: border-box;
 }
 
 .service-content_inner-second {
   left: 10%;
   background: #fff;
-  margin: 20px 0 0 0;
+  margin: 6% 0 0 0;
   display:block;
-
 }
 
 .service-img_second {
   position: absolute;
-  left: 45%;
+  left: 40%;
 }
 
 .service-btn {
@@ -391,6 +390,7 @@ input, select {
 
 .company-img {
   background: url(./assets/company.jpeg)center/cover no-repeat;
+  margin: 0 3%;
 }
 
 .recruit-img {
@@ -417,7 +417,7 @@ input, select {
 .faq {
   width: 70%;
   background: #000;
-  margin: 0 auto 10%;
+  margin: -15% 10% 10% 10%;
   padding: 50px;
 }
 
@@ -463,7 +463,7 @@ input, select {
 
 .contact-btn {
   text-align: center;
-  margin: 360px;
+  margin: 50% 5% 10% 40%;
   background: none;
   border: 1px solid #fff;
   color: #fff;

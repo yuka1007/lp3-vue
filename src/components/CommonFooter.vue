@@ -33,7 +33,7 @@
 }
 .header-logo{
   text-align: left;
-  margin: 0 0 0 5%;
+  margin: 0 0 0 8%;
   color: white;
 }
 
@@ -43,7 +43,7 @@
 
   .header-nav li{
     display: inline-block;
-    margin-left: 70px;
+    margin: 0 8% 0 2%;
     color:#fff;
   }
   
@@ -51,56 +51,5 @@
   display: flex;
 }
 
-  .catchcopy {
-    top: 50%;
-    left: 50%;
-    width: 80%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-  }
-  .news {
-    width: 100%;
-  }
-  .mission-content {
-    padding: 10% 0;
-    margin: 0 auto;
-  }
-  .service-content_inner {
-    width: 60%;
-    left: 10%;
-  }
-  .service-img {
-    width: 70%;
-    margin-left: 30%;
-  }
-  .service-img_second {
-    margin: 0 30% 0 0;
-  }
-  .service-content_inner-second {
-    left: 30%;
-  }
-  .service-content {
-    margin: 0 auto;
-  }
-  .service-content_inner {
-    width: 90%;
-    position: inherit;
-    background: rgba(12, 12, 12, 0.8);
-    left: 5%;
-  }
-  .service-img {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .recruit-company_size {
-    width: 100%;
-  }
-  .faq-title {
-    font-size: 30px;
-  }
-  .top-footer {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-  }
+
 </style>
