@@ -23,6 +23,7 @@
 .footer-bar {
   height: 70px;
   line-height: 70px;
+  color: white;
 }
 
 .top-footer {
@@ -33,6 +34,7 @@
 .header-logo{
   text-align: left;
   margin: 0 0 0 5%;
+  color: white;
 }
 
   .header-nav li{

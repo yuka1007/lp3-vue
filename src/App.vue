@@ -4,7 +4,7 @@
     <CommonHeader></CommonHeader>
      <div id="firstview">
       <p class="catchcopy">機械ではできない仕事を</p>
-      <div class="news flex">
+      <div class="news-flex">
         <div class="news-content">
           <p class="news_date">2019/01/01</p>
           <p class="news_title">
@@ -35,7 +35,7 @@
           <div class="service-img">
             <img src="./assets/service2.jpg" alt="" width="600" height="400"/>
           </div>
-          <div class="service-content_inner">c
+          <div class="service-content_inner">
             <h3 class="mgb-15">web制作事業</h3>
             <p class="mgb-15">コーチングのミッション</p>
             <p class="mgb-15">
@@ -208,6 +208,7 @@ input, select {
   background-size: cover;
   background-position: center;
   position: center;
+  z-index: 999;
 }
 
 .catchcopy {
@@ -229,6 +230,7 @@ input, select {
   bottom: 0;
   right: 0;
   width: 50%;
+
 }
 .news-content {
   background: #fff;
@@ -242,6 +244,7 @@ input, select {
 
 .news_title {
   padding: 0 15px;
+  margin: 100px 20px 10px 200px,
 }
 .news-icon {
   background: #000;
@@ -250,10 +253,14 @@ input, select {
   line-height: 70px;
   text-align: center;
   color: #fff;
+  z-index: 9;
 }
 .news-flex {
-  margin: 100px 0 5px 0; 
+  margin: -200px -100px 0 800px;
+  z-index: 999;
+  position: relative;
 }
+
 
 /*------------------------*/
 /*         mission        */
@@ -262,12 +269,13 @@ input, select {
 .mission {
   position: relative;
   background: #000;
-  margin-bottom: 1%;
-  z-index: 999;
+  margin: 40px 0 50px 0;
+  z-index: 9;
+  height: 500px; 
 }
 
 .mission-content {
-  padding: 10% 0 10% 20%;
+  padding: 10% 0 60% 20%;
   box-sizing: border-box;
   width: 70%;
 }
@@ -276,24 +284,28 @@ input, select {
 .mission_text {
   margin-bottom: 30px;
   color: #fff;
-  z-index: 1;
+  position: relative;
+  z-index: 10;
 }
 
 .mission_title {
   font-size: 30px;
 }
 
+/*ここのマージンでミッションの黒の幅変わる*/
 .mission-img {
-  width: 50px;
-  height: 30px;
-  margin: -5% 10% 30% 50%;
-  z-index: 100;
+  text-align:right;
+  width: 300px;
+  height: 60px;
+  margin: -70% 10% 30% 50%;
+  position: relative;
 }
 
 .mission-btn {
-  color: white;
+  color:black;
+  background: white;
   border: 1px solid #fff;
-  padding: 10px;
+  padding: 15px;
   text-decoration: none;
 }
 
@@ -302,46 +314,55 @@ input, select {
 /*------------------------*/
 .service {
   background: #e5e5e5;
-  margin-bottom: 10%;
+  padding: 100px 100px 400px 0; 
 }
 
 .service-title {
   text-align: center;
   padding: 20px 0 0 0;
+  font-size: 40px;
 }
 
 .service-content {
   position: relative;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
 }
 
 .service-img {
   width: 80px;
-  margin: 5% 5% 10% 45%;
-  
 }
 
 .service-img_second {
-  margin: 0% 500% 10% 1%;
+  margin: 0% 500% 0% 1%;
 }
 
 .service-content_inner {
   position: absolute;
   top: 5%;
-  left: 20%;
+  left: 50%;
   background: #fff;
-  width: 40%;
-  padding: 5% 5%;
+  width: 45%;
+  height: 70%;
+  padding: 5% 10% 5% 10%;
   box-sizing: border-box;
 }
 
 .service-content_inner-second {
-  left: 40%;
+  left: 10%;
+  background: #fff;
+  margin: 15px 10px 10px 5px;
+  display:block;
+
+}
+
+.service-img_second {
+  position: absolute;
+  left: 45%;
 }
 
 .service-btn {
   border: 1px solid #000;
-  margin: 20px 30px 20px 0;
+  margin: 30px 30px 20px 0;
   color: black;
   padding: 10px;
   text-decoration: none;
@@ -352,7 +373,7 @@ input, select {
 /*        recruit         */
 /*------------------------*/
 .company {
-  margin-bottom: 10%;
+  margin: 25% 2%;
 }
 
 .recruit-company {
