@@ -342,7 +342,6 @@ input, select {
   left: 50%;
   background: #fff;
   width: 45%;
-  height: 70%;
   padding: 5% 10% 5% 10%;
   box-sizing: border-box;
 }
@@ -350,7 +349,7 @@ input, select {
 .service-content_inner-second {
   left: 10%;
   background: #fff;
-  margin: 15px 10px 10px 5px;
+  margin: 20px 0 0 0;
   display:block;
 
 }
@@ -386,6 +385,10 @@ input, select {
   position: relative;
 }
 
+.section-title {
+  font-size: 35px;
+}
+
 .company-img {
   background: url(./assets/company.jpeg)center/cover no-repeat;
 }
@@ -401,6 +404,7 @@ input, select {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 
 .company-title span {

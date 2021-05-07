@@ -37,6 +37,10 @@
   color: white;
 }
 
+.header-nav a {
+  color: white;
+}
+
   .header-nav li{
     display: inline-block;
     margin-left: 70px;
