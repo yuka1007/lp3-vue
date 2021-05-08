@@ -234,8 +234,8 @@ input, select {
 }
 .news-content {
   background: #fff;
-  width: 80%;
-  height: 70px;
+  left: 20%;
+  padding: 5% 5%;
 }
 
 .news_date {
@@ -244,11 +244,10 @@ input, select {
 
 .news_title {
   padding: 0 15px;
-  margin: 100px 20px 10px 200px,
+  
 }
 .news-icon {
   background: #000;
-  width: 20%;
   height: 70px;
   line-height: 70px;
   text-align: center;
@@ -256,11 +255,11 @@ input, select {
   z-index: 9;
 }
 .news-flex {
-  margin: -25% -7% 0 70%;
+  display: inline-block;
   z-index: 999;
   position: relative;
+  margin: -30% 0 1% 70%;
 }
-
 
 /*------------------------*/
 /*         mission        */
@@ -269,7 +268,7 @@ input, select {
 .mission {
   position: relative;
   background: #000;
-  margin: 5% 0 5% 0;
+  margin: -10% 0 5% 0;
   z-index: 9;
   height: 500px; 
 }
