@@ -203,7 +203,7 @@ input, select {
 /*ここまでがリセットcss*/
 
 #firstview {
-  height: 100px;
+  height: 120px;
   background: (./assets/eyecatch.jpg);
   background-size: cover;
   background-position: center;
@@ -235,30 +235,32 @@ input, select {
 .news-content {
   background: #fff;
   left: 20%;
-  padding: 5% 5%;
+  padding: 3% 5%;
+  margin: 5% 0 10% 0;
 }
 
 .news_date {
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 .news_title {
-  padding: 0 15px;
+  padding: 0 1%;
   
 }
 .news-icon {
   background: #000;
-  height: 70px;
-  line-height: 70px;
+  line-height: 90px;
+  padding: 3% 5%;
   text-align: center;
   color: #fff;
   z-index: 9;
+  margin: 1% 0 10% 0;
 }
 .news-flex {
-  display: inline-block;
+  display: flex;
   z-index: 999;
   position: relative;
-  margin: -30% 0 1% 70%;
+  margin: -30% 0 1% 50%;
 }
 
 /*------------------------*/
@@ -268,7 +270,7 @@ input, select {
 .mission {
   position: relative;
   background: #000;
-  margin: -10% 0 5% 0;
+  margin: 0 0 5% 0;
   z-index: 9;
   height: 500px; 
 }
@@ -314,6 +316,7 @@ input, select {
 .service {
   background: #e5e5e5;
   padding: 2% 0 40% 0; 
+  margin: 15% 0;
 }
 
 .service-title {
@@ -332,7 +335,7 @@ input, select {
 }
 
 .service-img_second {
-  margin: 0% 0 -10% 1%;
+  margin: 0% 20% -10% -10%;
 }
 
 .service-content_inner {
@@ -442,8 +445,8 @@ input, select {
 /*------------------------*/
 .contact {
   background: url(./assets/contact-bg.jpg) center/cover no-repeat;
-  padding: 10%;
-  margin: 10% 0 0 0;
+  padding: 5% 5%;
+  margin: 5% 0 0 0;
 }
 
 .contact-title,
@@ -468,6 +471,10 @@ input, select {
   color: #fff;
   padding: 10px;
   text-decoration: none;
+}
+
+* {
+    outline: 1px solid red !important;
 }
 
 </style>

@@ -15,7 +15,7 @@
             </nav>
           </div>
         </div>
-        <small>Copyright 2019 estra inc. All Rights Reserved.</small>
+        <small class="footer-last">Copyright 2019 estra inc. All Rights Reserved.</small>
       </footer>
 </template>
 
@@ -28,28 +28,32 @@
 
 .top-footer {
   background: rgb(14, 13, 13);
-  text-align: center;
   color: white;
 }
 .header-logo{
-  text-align: left;
   margin: 0 0 0 8%;
   color: white;
 }
 
-.header-nav a {
+.header-nav ul {
+  display: flex;
+  margin: -10% 70% -5% 60%;
+  padding: 5% 5% 10% 5%;
+  text-decoration: none;
   color: white;
 }
 
-  .header-nav li{
-    display: inline-block;
-    margin: 0 8% 0 2%;
-    color:#fff;
-  }
-  
-.flex {
-  display: flex;
+.header-nav a {
+  padding: 5% 0%;
+  color: white;
 }
 
+.header-nav li {
+  text-decoration: none;
+}
+  
+.footer-last {
+  margin: 0 30%; 
+}
 
 </style>
