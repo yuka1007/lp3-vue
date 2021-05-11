@@ -473,8 +473,4 @@ input, select {
   text-decoration: none;
 }
 
-* {
-    outline: 1px solid red !important;
-}
-
 </style>

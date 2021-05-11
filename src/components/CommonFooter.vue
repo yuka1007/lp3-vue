@@ -37,19 +37,26 @@
 
 .header-nav ul {
   display: flex;
-  margin: -10% 70% -5% 60%;
+  margin: -12% 50% -5% 45%;
   padding: 5% 5% 10% 5%;
   text-decoration: none;
   color: white;
+  margin-right: 20%;
+
 }
 
 .header-nav a {
   padding: 5% 0%;
   color: white;
+  margin-right: 10%;
+  text-decoration: none;
+  margin-right: 20%;
 }
 
 .header-nav li {
   text-decoration: none;
+  margin-right: 10%;
+  display: flex;
 }
   
 .footer-last {
