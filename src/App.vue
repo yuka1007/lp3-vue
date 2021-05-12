@@ -2,7 +2,7 @@
 <template>
   <div id="app">
     <CommonHeader></CommonHeader>
-     <div id="firstview">
+     <div class="firstview">
       <p class="catchcopy">機械ではできない仕事を</p>
       <div class="news-flex">
         <div class="news-content">
@@ -202,14 +202,7 @@ input, select {
 }
 /*ここまでがリセットcss*/
 
-#firstview {
-  height: 120px;
-  background: (./assets/eyecatch.jpg);
-  background-size: cover;
-  background-position: center;
-  position: center;
-  z-index: 999;
-}
+
 
 .catchcopy {
   position: absolute;
@@ -335,7 +328,7 @@ input, select {
 }
 
 .service-img_second {
-  margin: 0% 20% -10% -10%;
+  margin: 0% 10% -20% 3%;
 }
 
 .service-content_inner {
