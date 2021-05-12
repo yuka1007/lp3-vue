@@ -37,7 +37,7 @@
 
 .header-nav ul {
   display: flex;
-  margin: -12% 50% -5% 45%;
+  margin: -12% 50% -5% 55%;
   padding: 5% 5% 10% 5%;
   text-decoration: none;
   color: white;
@@ -60,7 +60,7 @@
 }
   
 .footer-last {
-  margin: 0 30%; 
+  margin: 0 35%; 
 }
 
 </style>
