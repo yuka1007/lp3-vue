@@ -235,7 +235,7 @@ body {
 };
 
 #firstview {
-  height:800px;
+  height:1000px;
   background: url(../assets/eyecatch.jpg);
   background-size: cover;
   background-position: center;
@@ -253,34 +253,5 @@ body {
   line-height: 1;
 }
 
-/*------------------------*/
-/*         news           */
-/*------------------------*/
-.news {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-}
-.news-content {
-  background: #fff;
-  width: 80%;
-  height: 70px;
-}
 
-.news_date {
-  padding-left: 5px;
-}
-
-.news_title {
-  padding: 0 15px;
-}
-.news-icon {
-  background: #000;
-  width: 20%;
-  height: 70px;
-  line-height: 70px;
-  text-align: center;
-  color: #fff;
-}
 </style>

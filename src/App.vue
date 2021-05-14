@@ -206,7 +206,7 @@ input, select {
 
 .catchcopy {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 10%;
   font-size: 60px;
   font-style: italic;
@@ -253,7 +253,7 @@ input, select {
   display: flex;
   z-index: 999;
   position: relative;
-  margin: -30% 0 1% 50%;
+  margin: -14% 0 1% 50%;
 }
 
 /*------------------------*/
