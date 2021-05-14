@@ -228,8 +228,8 @@ input, select {
 .news-content {
   background: #fff;
   left: 20%;
-  padding: 3% 5%;
-  margin: 5% 0 10% 0;
+  padding: 2% 3%;
+  margin: 3% -3% 10% 5%;
 }
 
 .news_date {
@@ -242,18 +242,19 @@ input, select {
 }
 .news-icon {
   background: #000;
-  line-height: 90px;
-  padding: 3% 5%;
+  line-height: 70px;
+  padding: 3% 2%;
   text-align: center;
   color: #fff;
   z-index: 9;
-  margin: 1% 0 10% 0;
+  margin: 1% -5% 10% 0;
 }
 .news-flex {
   display: flex;
   z-index: 999;
   position: relative;
-  margin: -14% 0 1% 50%;
+  margin: -14% -3% -5% 55%;
+  padding: -2% -2% -2% -2%;
 }
 
 /*------------------------*/
